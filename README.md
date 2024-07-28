@@ -34,7 +34,7 @@ source venv/bin/activate
 Install Dependencies
 pip install -r requirements.txt
 
-5.**Configure PostgreSQL*8
+5.**Configure PostgreSQL**
 
 Install PostgreSQL.
 Create a database and user.
@@ -79,8 +79,8 @@ Method: GET
 Create a .env file in the project root and add the following environment variables:
 
 
-13.License
+13.**License**
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-14.Contact
+14.**Contact**
 For any queries or issues, please open an issue in the repository or contact the project maintainers.
