@@ -12,7 +12,7 @@ POST /alerts/create/: Create a new alert.
 DELETE /alerts/delete/: Delete an existing alert.
 GET /alerts/list/: List all alerts created by the user.
 
-3.**Prerequisites*8
+3.**Prerequisites**
 
 Python 3.8+
 Django 3.2+
