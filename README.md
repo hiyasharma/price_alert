@@ -2,17 +2,17 @@
 
 **Django Rest Framework Application**
 
-1.**Overview**
+-**Overview**
 
 This is a Django Rest Framework application that allows users to create, delete, and fetch alerts for cryptocurrency prices. When the price of a specified cryptocurrency meets the alert criteria set by the user, an email notification is sent.
 
-2.**Endpoints**
+-**Endpoints**
 
 POST /alerts/create/: Create a new alert.
 DELETE /alerts/delete/: Delete an existing alert.
 GET /alerts/list/: List all alerts created by the user.
 
-3.**Prerequisites**
+-**Prerequisites**
 
 Python 3.8+
 Django 3.2+
@@ -21,7 +21,7 @@ Redis (for caching)
 RabbitMQ (for message brokering)
 Docker (for containerization)
 
-4.**Setup**
+-**Setup**
 
 Clone the Repository
 git clone <repository_url>
@@ -34,7 +34,7 @@ source venv/bin/activate
 Install Dependencies
 pip install -r requirements.txt
 
-5.**Configure PostgreSQL**
+-**Configure PostgreSQL**
 
 Install PostgreSQL.
 Create a database and user.
@@ -51,36 +51,36 @@ DATABASES = {
     }
 }
 
-6.**Run Migrations**
+-**Run Migrations**
 
 python manage.py makemigrations
 python manage.py migrate
 
-7.**Start the Development Server**
+-**Start the Development Server**
 
 python manage.py runserver
 
 
-8.**Using the Endpoints**
+-**Using the Endpoints**
 
-9.**Create an Alert**
+-**Create an Alert**
 URL: /alerts/create/
 Method: POST
 
-10.**Delete an Alert**
+-**Delete an Alert**
 URL: /alerts/delete/<alert_id>/
 Method: DELETE
 
-11.**List Alerts**
+-**List Alerts**
 URL: /alerts/list/
 Method: GET
 
-12.**Environment Variables**
+-**Environment Variables**
 Create a .env file in the project root and add the following environment variables:
 
 
-13.**License**
+-**License**
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-14.**Contact**
+-**Contact**
 For any queries or issues, please open an issue in the repository or contact the project maintainers.
