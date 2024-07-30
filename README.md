@@ -17,22 +17,13 @@ GET /alerts/list/: List all alerts created by the user.
 Python 3.8+
 Django 3.2+
 PostgreSQL 12+
-Redis (for caching)
-RabbitMQ (for message brokering)
-Docker (for containerization)
 
 -**Setup**
 
 Clone the Repository
 git clone <repository_url>
 cd <repository_directory>
-Create a Virtual Environment
 
-python3 -m venv venv
-source venv/bin/activate
-
-Install Dependencies
-pip install -r requirements.txt
 
 -**Configure PostgreSQL**
 
